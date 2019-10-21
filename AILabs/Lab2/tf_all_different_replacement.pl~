@@ -1,0 +1,6 @@
+digit(1).
+digit(2).
+digit(3).
+digit(4).
+
+valid(X,W,Y,Z) :- X \== W, X \== Y, X \== Z, W \== Y, W \== Z, Y \== Z, digit(X), digit(W), digit(Y), digit(Z).
