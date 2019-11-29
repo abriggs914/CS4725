@@ -12,7 +12,7 @@ public class RandomPlayer implements PokerSquaresPlayer {
 	 * a stack of all unchosen plays represented as row-major indices. Row-major indices: play (r, c) is recorded as a single integer r * SIZE + c.
 	 * (See <a href="http://en.wikipedia.org/wiki/Row-major_order">http://en.wikipedia.org/wiki/Row-major_order</a>.)
 	 */
-	private Stack<Integer> plays = new Stack<Integer>();
+	private Stack<Integer> plays = new Stack<Integer>(); 
 	
 	/* (non-Javadoc)
 	 * @see PokerSquaresPlayer#setPointSystem(PokerSquaresPointSystem, long)
